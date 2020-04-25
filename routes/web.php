@@ -18,6 +18,6 @@ Route::get('/', function () {
 });
 
 
-Route::any('{/slug}', function (){
+Route::any('{slug}', function (){
     return view('welcome');
 });
